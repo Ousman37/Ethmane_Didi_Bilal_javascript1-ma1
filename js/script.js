@@ -9,7 +9,7 @@ const cat = {
 cat.complain();
 
 //Question 2:
-//answer:<h3>
+//answer: <h3 class="subheading" style="font-size: 3em;">
 const myHeading = document.querySelector("h3");
 
 myHeading.innerHTML = "Updated heading";
@@ -21,11 +21,11 @@ console.log(myHeading);
 myHeading.style.fontSize = "3em";
 
 //Question 4:
-//answer:
+//answer:Updated heading
 myHeading.classList.add("subheading");
 
 //Question 5:
-//answer:
+//answer: "red"
 const paragraphs = document.querySelectorAll("p");
 for (let i = 0; i < paragraphs.length; i++) {
   paragraphs[i].style.color = "red";
@@ -35,7 +35,7 @@ paragraphs.forEach((para) => {
 });
 
 //Question 6:
-//answer:
+//answer:<div class="results" style="background-color: yellow;">
 const resultsContainer = document.querySelector(".results");
 resultsContainer.innerHTML += "<p>New paragraph</p>";
 
@@ -43,7 +43,7 @@ console.log(resultsContainer);
 resultsContainer.style.backgroundColor = "yellow";
 
 //Question 7:
-//answer: Blob Harold Blurt
+//answer: Blob, Harold, Blurt
 
 const cats = [
   {
